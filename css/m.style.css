@@ -125,7 +125,7 @@
 .week-product-wrap .category{margin-top:0.9375rem;display:grid;grid-template-columns: repeat(4, minmax(0, 1fr));border-left:0.0625rem solid #cbcbcb;}
 .week-product-wrap .category li{border-right:0.0625rem solid #cbcbcb;border-bottom:0.0625rem solid #cbcbcb;border-top:0.0625rem solid #cbcbcb;}
 .week-product-wrap .category li:nth-child(4) ~ li{border-top:none;}
-.week-product-wrap .category li button{display:flex;justify-content:center;align-items:center;height:2rem;padding:0.25rem; font-size:0.6875rem;width:100%;word-break: keep-all;line-height:1.2;letter-spacing: -0.07em;}
+.week-product-wrap .category li button{display:flex;justify-content:center;align-items:center;height:2rem;padding:0.25rem; font-size:0.6875rem;width:100%;overflow-wrap: anywhere; word-break: keep-all;white-space: normal; line-height:1.2;letter-spacing: -0.07em;}
 .week-product-wrap .category li button:disabled{ color:#a1a1a1;}
 .week-product-wrap .category li.on button{ color:#fff;background:#E70012;}
 .week-product-wrap .product-slide-list { margin-top: 1.875rem; }
