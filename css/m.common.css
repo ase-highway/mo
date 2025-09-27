@@ -493,11 +493,13 @@ select.no-line { border: none; }
 .header .header-menu .right { margin-left: auto; }
 .header .header-menu .user-menu { display: flex; align-items: center; }
 .header .header-menu .user-menu > li > a { display: flex; flex-direction: column; justify-content: center; align-items: center; width: 1.875rem; height: 1.875rem; }
+.header .header-menu ~ .gnb-menu{border-top:1px solid #ddd;}
 .header .gnb-menu { height: 2.5rem; display: flex; align-items: center; padding: 0 0.875rem; }
 .header .gnb-menu .btn-menu { width: 2.8125rem; min-width: 2.8125rem; height: 100%; margin-left: -0.625rem; background: url("data:image/svg+xml,%3Csvg width='24' height='18' viewBox='0 0 24 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H24V2H0V0Z' fill='%232B2B2B'/%3E%3Cpath d='M0 8H24V10H0V8Z' fill='%232B2B2B'/%3E%3Cpath d='M0 16H24V18H0V16Z' fill='%232B2B2B'/%3E%3C/svg%3E%0A") no-repeat 50% 50%; background-size: auto 0.875rem; }
 .header .gnb-menu ul { flex: 1; display: flex; align-items: center; overflow-x: auto; }
 .header .gnb-menu ul::-webkit-scrollbar { display: none; }
-.header .gnb-menu ul li a { color: #2c2c2c; font-size: 0.875rem; height: 2.8125rem; padding: 0 0.5rem; white-space: nowrap; font-weight: 500; }
+.header .gnb-menu ul li{line-height:1;}
+.header .gnb-menu ul li a { color: #2c2c2c; font-size: 0.875rem; height: 2.8125rem; padding: 0 0.5rem; white-space: nowrap; font-weight: 500; line-height:1;}
 
 .total-search-layer { display: none; position: fixed; top: 2.8125rem; width: 100%; padding-bottom: 0.625rem; z-index: 40; overflow: hidden; }
 .total-search-layer .search-area { padding: 0.625rem; background: #fff; }
