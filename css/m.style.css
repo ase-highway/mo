@@ -672,8 +672,8 @@
 
 .main-today-meal-wrap{margin-top:2.5rem; padding:1rem 1rem 2.5rem;display:flex;flex-direction: column;gap:2.5rem;background: url('../images/common/bg-main-today-meal.png') no-repeat 0 0;background-size: cover;}
 .main-today-meal-wrap .today-meal {position:relative;}
-.main-today-meal-wrap .today-meal .img {position:relative;}
-.main-today-meal-wrap .today-meal .img img {width:100%;}
+.main-today-meal-wrap .today-meal .img {position:relative;height:10rem;}
+.main-today-meal-wrap .today-meal .img img {width:100%;height:100%;object-fit: cover;}
 .main-today-meal-wrap .today-meal .img:before { content: ''; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(217, 217, 217, 0) 50%, rgba(0, 0, 0, 0.8) 100%);}
 .main-today-meal-wrap .today-meal .desc {position: absolute; bottom: 0; left: 0; width: 100%; color: #fff; padding: 1.25rem 1rem;text-align:center;}
 .main-today-meal-wrap .today-meal .desc strong {font-size:1.375rem;}
@@ -696,7 +696,7 @@
 .today-meal-list{margin-top:30px;    padding: 0 14px;}
 .today-meal-list ul li ~ li{margin-top:1.5625rem;}
 .today-meal-list ul li .link{border-radius:0.625rem;display:flex;flex-direction: column;padding:0.5rem;background:#f4f4f4;}
-.today-meal-list ul li .img {border-radius:0.625rem;overflow:hidden;/*height:10rem;*/}
+.today-meal-list ul li .img {border-radius:0.625rem;overflow:hidden;height:10rem;}
 .today-meal-list ul li .img img {object-fit: cover;width:100%;height:100%;}
 .today-meal-list ul li .desc { padding:0.625rem;padding-top:0.75rem;}
 .today-meal-list ul li .desc strong {font-size:1.125rem;color:#363636;}
